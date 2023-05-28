@@ -1,0 +1,129 @@
+
+body {
+  font-style: Fantasy;
+  background-image: linear-gradient(white, orange);
+}
+
+.todo {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  
+}
+
+#taskInput {
+  margin-right: 10px;
+}
+
+#addButton {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#deadlineInput {
+  width: 45%;
+  padding: 5px 5px;
+  margin: 0px 0px 10px;
+}
+
+#addButton {
+  display: block;
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #4caf50;
+  color: #f7d68f;
+  border: none;
+  cursor: pointer;
+}
+
+ol {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li {
+  display: flex;
+  text-align: left;
+  align-items: right;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+button {
+ 
+  padding: 5px 5px 5px;
+  border-radius: 8px;
+  background-color: #f7d68f;
+  color: white;
+  border: none;
+
+}
+
+.todo {
+  background-color:#f7d68f;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+#taskInput {
+  flex-grow: 1;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  width: 70%;
+  font-size: 16px;
+}
+
+#addButton {
+  padding: 8px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#addButton:hover {
+  background-color: #3e8e41;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+  margin-left: 50px;
+}
+
+.listItem {
+  display: flex;
+  border-bottom: 1px solid #f3b6b6;
+  font-size: 18px;
+}
+
+
+
+h2 {
+  text-align: center;
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.tx{
+  margin-left: 1%;
+  font-style: italic;
+}
