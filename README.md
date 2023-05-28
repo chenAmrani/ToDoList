@@ -1,6 +1,6 @@
 # ToDoList
 
-ToDo List project that i do with some features
+ToDo List project that i do with some features.
 <br></br>
 An example of a task list:
 <br></br>
